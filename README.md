@@ -65,14 +65,14 @@ This simulation models:
 - 📉 Convergence of cost function  
 - 🔄 Posterior distributions of burn parameters
 
-> ```markdown
+<!-- Gradient Descent Image -->
+<img src="https://github.com/user-attachments/assets/cb2ed5df-9130-438f-bc8b-3c01050a4555" width="600"/>
 
-> ![gradient_descent](https://github.com/user-attachments/assets/cb2ed5df-9130-438f-bc8b-3c01050a4555)
+<!-- Fig 4d: Cost vs Iteration -->
+<img src="https://github.com/user-attachments/assets/8396b779-e1fb-4147-a851-974feeff4c9f" width="600"/>
 
-> ```
-
----
-
+<!-- Random Walkers -->
+<img src="https://github.com/user-attachments/assets/8a92c9a9-11a6-4c80-8baf-b5da989b2d8f" width="600"/>
 
 ---
 
@@ -95,7 +95,7 @@ This simulation models:
 
 ## 📌 Limitations
 
-- Assumes 2D docking plane and simplified gravitational model  
+- Assumes a 2D docking plane and a simplified gravitational model  
 - Ignores fuel leakage, actuator delay, or collision dynamics  
 - MCMC assumes Gaussian noise
 
@@ -104,9 +104,8 @@ This simulation models:
 ## 🤝 Credits
 
 - **Tszon Tseng** – project author  
-- Supervised by [Insert Supervisor Name]  
-- Inspired by orbital mechanics coursework & gradient-based ML methods  
-- Visualisation techniques adapted from [Matplotlib/Plotly Docs]  
+- Supervised by Dr. James Collett ad Professor Detlef Mueller
+- Inspired by orbital mechanics applications & gradient-based ML methods  
 - MCMC logic adapted from [emcee GitHub](https://github.com/dfm/emcee)
 
 ---
