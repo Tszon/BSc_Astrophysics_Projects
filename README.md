@@ -26,9 +26,9 @@ This project emerged from my final-year research at the **University of Hertford
 
 ## 📐 Technologies Used
 
-- 🐍 **Python** – core language
+- 🐍 **Python**
 - `numpy`, `scipy` – numerical methods, ODE solvers
-- `matplotlib`, `plotly` – plotting and animation
+- `matplotlib`, `seaborn` – plotting and animation
 - `emcee` – Markov Chain Monte Carlo for uncertainty quantification
 - `PyMC` – Bayesian regression (optional extension)
 - `LaTeX` – scientific documentation and reporting
@@ -39,7 +39,7 @@ This project emerged from my final-year research at the **University of Hertford
 
 This simulation models:
 
-- Orbital parameters of an interceptor spacecraft
+- Orbital parameters (e.g. positions & velocities in x, y & z-axis) of an interceptor spacecraft
 - Optimal velocity (`v`) and trajectory angle (`θ`) using **gradient descent**
 - Cost function `J(v, θ)` minimised iteratively
 - Uncertainty quantification via **Bayesian inference** using **MCMC**
@@ -55,7 +55,7 @@ This simulation models:
 4. **Quantify uncertainty**: use `emcee` to explore the posterior distribution
 5. **Visualise**: plot contours, convergence, and trajectory path
 
-> 🔬 _See `/notebooks/simulation.ipynb` for a step-by-step walkthrough._
+> 🔬 _See `/BSc_Astrophysics_Projects/simulation.ipynb` for a step-by-step walkthrough._
 
 ---
 
@@ -63,12 +63,12 @@ This simulation models:
 
 - 📈 Descent path over cost surface  
 - 📉 Convergence of cost function  
-- 🌌 Docking trajectory animation  
 - 🔄 Posterior distributions of burn parameters
 
-> 🖼️ Add `.png`, `.gif` or `.mp4` inside `/media` and embed them here using:
 > ```markdown
-> ![Trajectory](media/trajectory.gif)
+
+> ![gradient_descent](https://github.com/user-attachments/assets/cb2ed5df-9130-438f-bc8b-3c01050a4555)
+
 > ```
 
 ---
