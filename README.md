@@ -55,7 +55,7 @@ This simulation models:
 4. **Quantify uncertainty**: use `emcee` to explore the posterior distribution
 5. **Visualise**: plot contours, convergence, and trajectory path
 
-> 🔬 _See `/BSc_Astrophysics_Projects/simulation.ipynb` for a step-by-step walkthrough._
+> 🔬 _See `BSc_Astrophysics_Projects/GradientDescentOptimisation_MCMC/02_transfer_optimisation+MCMC.ipynb` for a step-by-step walkthrough._
 
 ---
 
@@ -104,8 +104,8 @@ This simulation models:
 ## 🤝 Credits
 
 - **Tszon Tseng** – project author  
-- Supervised by Dr. James Collett ad Professor Detlef Mueller
-- Inspired by orbital mechanics applications & gradient-based ML methods  
+- Supervised by [Dr. James Collett](https://researchprofiles.herts.ac.uk/en/persons/james-collett) and [Professor Detlef Mueller](https://researchprofiles.herts.ac.uk/en/persons/detlef-mueller)
+- Inspired by orbital mechanics applications & gradient-based ML methods in Deep Learning
 - MCMC logic adapted from [emcee GitHub](https://github.com/dfm/emcee)
 
 ---
