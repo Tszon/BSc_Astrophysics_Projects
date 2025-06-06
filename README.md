@@ -83,9 +83,10 @@ line after reaching the valley (around 130 steps) of the cost function. The desc
 > *Fig. 3*: Simulation of random walkers to search for the final converged parameters `(v, θ)`. We observe a sign of stable convergence at around 150 iterations (red dashed lines) for both parameters.
 
 <!-- Optimised Trajectory -->
-<img src="https://github.com/user-attachments/assets/95410be5-57d0-4aa9-87e7-b3e6bc3aeec2" width="600"/>
+<img src="https://github.com/user-attachments/assets/26e0c27a-ceae-437f-8ad3-4ee8ac0b3b7c" width="600"/>
 
-> *Fig. 4*: Comparison of possible transfers.
+> *Fig. 4*: Results of the optimised transfer. Note that a heavier penalty (grey dashed line ---) allows for faster transfer.
+.
 
 ---
 
