@@ -26,7 +26,7 @@ This project emerged from my final-year research at the **University of Hertford
 
 ## 📐 Technologies Used
 
-- 🐍 **Python**
+- **Python**
 - `numpy`, `scipy` – numerical methods, ODE solvers
 - `matplotlib`, `seaborn` – plotting and animation
 - `emcee` – Markov Chain Monte Carlo for uncertainty quantification
