@@ -55,7 +55,7 @@ This simulation models:
 4. **Quantify uncertainty**: use `emcee` to explore the posterior distribution
 5. **Visualise**: plot contours, convergence, and trajectory path
 
-> 🔬 _See `BSc_Astrophysics_Projects/GradientDescentOptimisation_MCMC/02_transfer_optimisation+MCMC.ipynb` for a step-by-step walkthrough._
+> 🔬 _See [my Jupyter notebook](https://github.com/Tszon/BSc_Astrophysics_Projects/blob/main/GradientDescentOptimisation_MCMC/02_transfer_optimisation%2BMCMC.ipynb) for a step-by-step walkthrough._
 
 ---
 
