@@ -39,7 +39,7 @@ This project emerged from my final-year research at the **University of Hertford
 
 This simulation models:
 
-- Orbital parameters (e.g. positions & velocities in x, y & z-axis) of an interceptor spacecraft
+- Orbital parameters (e.g. positions & velocities in `x`, `y` & `z`-axis) of an interceptor spacecraft
 - Optimal velocity (`v`) and trajectory angle (`θ`) using **gradient descent**
 - Cost function `J(v, θ)` minimised iteratively
 - Uncertainty quantification via **Bayesian inference** using **MCMC**
@@ -61,18 +61,31 @@ This simulation models:
 
 ## 📊 Visualisations
 
-- 📈 Descent path over cost surface  
-- 📉 Convergence of cost function  
-- 🔄 Posterior distributions of burn parameters
+- Descent path over cost surface  
+- Convergence of cost function  
+- Posterior distributions of burn parameters
+-  Optimised Trajectory 
 
 <!-- Gradient Descent Image -->
 <img src="https://github.com/user-attachments/assets/cb2ed5df-9130-438f-bc8b-3c01050a4555" width="600"/>
 
-<!-- Fig 4d: Cost vs Iteration -->
+> *Fig. 1*: Gradient descent over the contour surface plot of the cost function `J`. The white dashed line on the left shows the cost of a classic Hohmann transfer.
+
+<!-- Cost vs Iteration -->
 <img src="https://github.com/user-attachments/assets/8396b779-e1fb-4147-a851-974feeff4c9f" width="600"/>
+
+> *Fig. 2*: Changes in the cost function `J` over gradient descent steps. Notice that it is not a perfectly horizontal
+line after reaching the valley (around 130 steps) of the cost function. The descent process becomes much slower when the minimum is close.
 
 <!-- Random Walkers -->
 <img src="https://github.com/user-attachments/assets/8a92c9a9-11a6-4c80-8baf-b5da989b2d8f" width="600"/>
+
+> *Fig. 3*: Simulation of random walkers to search for the final converged parameters `(v, θ)`. We observe a sign of stable convergence at around 150 iterations (red dashed lines) for both parameters.
+
+<!-- Optimised Trajectory -->
+<img src="https://github.com/user-attachments/assets/95410be5-57d0-4aa9-87e7-b3e6bc3aeec2" width="600"/>
+
+> *Fig. 4*: Comparison of possible transfers.
 
 ---
 
