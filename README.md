@@ -85,8 +85,7 @@ line after reaching the valley (around 130 steps) of the cost function. The desc
 <!-- Optimised Trajectory -->
 <img src="https://github.com/user-attachments/assets/26e0c27a-ceae-437f-8ad3-4ee8ac0b3b7c" width="600"/>
 
-> *Fig. 4*: Results of the optimised transfer. Note that a heavier penalty (grey dashed line ---) allows for faster transfer.
-.
+> *Fig. 4*: Results of the optimised transfer. Note that a heavier penalty (grey dashed line '---') allows for faster transfer.
 
 ---
 
